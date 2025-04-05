@@ -8,6 +8,3 @@ from aiogram import F
 async def start(message: Message):
     await message.answer(f"HI {message.from_user.full_name}",
                          reply_markup=main_keyboard)
-
-
-

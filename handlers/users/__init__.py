@@ -1,5 +1,6 @@
 from . import start
-from . import echo
 from . import help
+from . import music
 from . import photos
 from . import lesson
+from . import jokes

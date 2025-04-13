@@ -8,6 +8,6 @@ async def set_default_commands():
             types.BotCommand(command="start", description="Running bot"),
             types.BotCommand(command="help", description="Getting some info about bot"),
             types.BotCommand(command="music",description="get anyone music in reply buttons"),
-            types.BotCommand(command="jokes",description='generate random joke')
+            types.BotCommand(command="jokes", description='generate random joke')
         ]
     )
